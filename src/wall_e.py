@@ -84,7 +84,6 @@ def traverse_directory(base_path: str, exclusions: list) -> set:
             continue
 
         if path.is_file() and path.name.endswith(".py"):
-            print(f"Processing file: {path}")
             modules = get_modules_from_file(path)
             for module in modules:
                 module_name = ""
