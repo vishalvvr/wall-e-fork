@@ -1,6 +1,8 @@
 # Wall-E
 Collector of absolute 3rd party packages from existing projects
 
+![wall-e](https://www.looper.com/img/gallery/the-terrifying-detail-you-missed-in-wall-es-opening-scene/intro-1608234708.jpg)
+
 ## Background
 This project aims to generate `requirements.txt` file for existing repositories where you have an old file which is filled with dependencies of dependencies. 
 
